@@ -1,0 +1,2 @@
+cpu  exec time is 0.0630790000 s ,cuda exec time is 0.0004990000 s 
+cpusumtime£º 1.3526530000 s ,gpusumtime£º 0.0178650000 s 

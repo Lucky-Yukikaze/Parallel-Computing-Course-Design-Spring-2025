@@ -1,0 +1,84 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  D:\CudaRuntime1>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.2\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "D:\VisualStudio\VS2022\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.2\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o D:\CudaRuntime1\x64\Debug\kernel.cu.obj "D:\CudaRuntime1\kernel.cu" 
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.2\include\cuda.h(20651): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.2\include\cuda.h(21325): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\OpenCV\opencv\build\include\opencv2/stitching/detail/warpers.hpp(235): warning #611-D: overloaded virtual function "cv::detail::PlaneWarper::buildMaps" is only partially overridden in class "cv::detail::AffineWarper"
+    class  AffineWarper : public PlaneWarper
+           ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+D:\OpenCV\opencv\build\include\opencv2/stitching/detail/warpers.hpp(235): warning #611-D: overloaded virtual function "cv::detail::PlaneWarper::warp" is only partially overridden in class "cv::detail::AffineWarper"
+    class  AffineWarper : public PlaneWarper
+           ^
+  
+D:\OpenCV\opencv\build\include\opencv2/stitching/detail/matchers.hpp(182): warning #611-D: overloaded virtual function "cv::detail::FeaturesMatcher::match" is only partially overridden in class "cv::detail::BestOf2NearestMatcher"
+    class  BestOf2NearestMatcher : public FeaturesMatcher
+           ^
+  
+D:\OpenCV\opencv\build\include\opencv2/stitching/detail/matchers.hpp(236): warning #611-D: overloaded virtual function "cv::detail::FeaturesMatcher::match" is only partially overridden in class "cv::detail::AffineBestOf2NearestMatcher"
+    class  AffineBestOf2NearestMatcher : public BestOf2NearestMatcher
+           ^
+  
+D:\OpenCV\opencv\build\include\opencv2/stitching/detail/blenders.hpp(100): warning #611-D: overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::FeatherBlender"
+    class  FeatherBlender : public Blender
+           ^
+  
+D:\OpenCV\opencv\build\include\opencv2/stitching/detail/blenders.hpp(127): warning #611-D: overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::MultiBandBlender"
+    class  MultiBandBlender : public Blender
+           ^
+  
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.2\include\cuda.h(20651): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.2\include\cuda.h(21325): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\OpenCV\opencv\build\include\opencv2/stitching/detail/warpers.hpp(235): warning #611-D: overloaded virtual function "cv::detail::PlaneWarper::buildMaps" is only partially overridden in class "cv::detail::AffineWarper"
+    class  AffineWarper : public PlaneWarper
+           ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+D:\OpenCV\opencv\build\include\opencv2/stitching/detail/warpers.hpp(235): warning #611-D: overloaded virtual function "cv::detail::PlaneWarper::warp" is only partially overridden in class "cv::detail::AffineWarper"
+    class  AffineWarper : public PlaneWarper
+           ^
+  
+D:\OpenCV\opencv\build\include\opencv2/stitching/detail/matchers.hpp(182): warning #611-D: overloaded virtual function "cv::detail::FeaturesMatcher::match" is only partially overridden in class "cv::detail::BestOf2NearestMatcher"
+    class  BestOf2NearestMatcher : public FeaturesMatcher
+           ^
+  
+D:\OpenCV\opencv\build\include\opencv2/stitching/detail/matchers.hpp(236): warning #611-D: overloaded virtual function "cv::detail::FeaturesMatcher::match" is only partially overridden in class "cv::detail::AffineBestOf2NearestMatcher"
+    class  AffineBestOf2NearestMatcher : public BestOf2NearestMatcher
+           ^
+  
+D:\OpenCV\opencv\build\include\opencv2/stitching/detail/blenders.hpp(100): warning #611-D: overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::FeatherBlender"
+    class  FeatherBlender : public Blender
+           ^
+  
+D:\OpenCV\opencv\build\include\opencv2/stitching/detail/blenders.hpp(127): warning #611-D: overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::MultiBandBlender"
+    class  MultiBandBlender : public Blender
+           ^
+  
+D:\CudaRuntime1\kernel.cu(62): warning #177-D: variable "fp" was declared but never referenced
+    	FILE* fp;
+    	      ^
+  
+  kernel.cu
+  tmpxft_00003754_00000000-7_kernel.cudafe1.cpp
+D:\CudaRuntime1\kernel.cu(47): warning C4018: “<”: 有符号/无符号不匹配
+D:\CudaRuntime1\kernel.cu(49): warning C4018: “<”: 有符号/无符号不匹配
+D:\CudaRuntime1\kernel.cu(51): warning C4244: “=”: 从“float”转换到“unsigned char”，可能丢失数据
+D:\CudaRuntime1\kernel.cu(96): warning C4244: “初始化”: 从“_Rep”转换到“double”，可能丢失数据
+          with
+          [
+              _Rep=__int64
+          ]
+D:\CudaRuntime1\kernel.cu(122): warning C4244: “初始化”: 从“_Rep”转换到“double”，可能丢失数据
+          with
+          [
+              _Rep=__int64
+          ]
+D:\CudaRuntime1\kernel.cu(132): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\CudaRuntime1\kernel.cu(62): warning C4101: “fp”: 未引用的局部变量
+D:\CudaRuntime1\kernel.cu(183): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+    正在创建库 D:\CudaRuntime1\x64\Debug\CudaRuntime1.lib 和对象 D:\CudaRuntime1\x64\Debug\CudaRuntime1.exp
+LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+  CudaRuntime1.vcxproj -> D:\CudaRuntime1\x64\Debug\CudaRuntime1.exe
