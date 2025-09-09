@@ -1,0 +1,4 @@
+﻿  muti.cpp
+D:\muti\muti.cpp(15,13): warning C4849: “collapse”指令中忽略 OpenMP“parallel for”子句
+D:\muti\muti.cpp(57,49): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  muti.vcxproj -> D:\muti\x64\Debug\muti.exe
